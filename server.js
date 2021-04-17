@@ -11,28 +11,8 @@ const path = require('path');
 // Setting up a static directory for the files in /pub
 // using Express middleware.
 // Don't put anything in /pub that you don't want the public to have access to!
+
 app.use(express.static(path.join(__dirname, '/pub')))
-
-
-// view engine setup
-// app.set('views', path.join(__dirname, 'views'));
-// app.engine(".html", ejs.__express);
-// app.set('view engine', 'html');
-
-// Let's make some express 'routes'
-// Express has something called a Router, which 
-// takes specific HTTP requests and handles them
-// based on the HTTP method and URL
-
-// Let's make a route for an HTTP GET request to the 
-// 'root' of our app (i.e. top level domain '/')
-
-// app.get('/', (req, res) => {
-// 	// sending a string
-// 	res.send('This should be the root route!')
-
-// 	// sending some HTML
-// })
 
 
 
