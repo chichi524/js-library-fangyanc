@@ -1,0 +1,23 @@
+{
+  "name": "shop",
+  "version": "3.0.0",
+  "description": "shopshop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "fyc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-winter-2021/js-library-fangyanc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/csc309-winter-2021/js-library-fangyanc/issues"
+  },
+  "homepage": "https://github.com/csc309-winter-2021/js-library-fangyanc#readme"
+}
