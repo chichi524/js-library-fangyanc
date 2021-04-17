@@ -3,7 +3,7 @@
  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="/style/js/jquery-1.11.1.min.js"></script>
     <title>JS Libraries</title>
 
     <!------- Loading JS scripts ------->
@@ -18,7 +18,7 @@
     <!-- If you don't use either 'async' or 'defer', the HTML parsing/DOM loading is blocked until the script is downloaded and executed. -->
     <!-- Since it is the top script on the page, it will block 
       before loading everything under it (including the <body>).  -->
-    <script src="dom_load.js"></script>
+    <script src="./style/js/dom_load.js"></script>
 
     <!-- 'defer' states that the script should be executed after the HTML is parsed.
          If multiple scripts have 'defer', they are loaded one after the other.  
@@ -27,9 +27,9 @@
     <!-- First we load jquery from a Google CDN (content delivery network). -->
     <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <!-- Then we load a script that depends on jQuery -->
-    <script defer type="text/javascript" src='/static/js/shop.js'></script>
+    <script defer type="text/javascript" src='/style/js/shop.js'></script>
     <!-- Then we load a script that depends on our libraries (and jQuery) -->
-    <script defer type="text/javascript" src='/static/js/examples.js'></script>
+    <script defer type="text/javascript" src='/style/js/examples.js'></script>
 
     <!-- 
     - 'async' states that it is safe to download the script without blocking 
@@ -42,12 +42,13 @@
      Often scripts like ads and analytics are loaded async since they don't depend
      on other scipts.
     -->
-    <script async type="text/javascript" src='/static/js/dom_load_async.js'></script>
+    <script async type="text/javascript" src='/style/js/dom_load_async.js'></script>
 
  </head>
  <body style="height: 100%;">
 
     <div id='myId'></div>
+ 
 
  </body>
 

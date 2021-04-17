@@ -69,21 +69,21 @@ CircleGenerator.prototype = {
         circle.style = 'width: 260px; height: 458px; border: 1px solid darkorange; position: relative; float: left; margin: 10px; background-color: white;'
         var item = document.createElement('img')
         circle.appendChild(item)
-        item.src = 'vm.png'
+        item.src = './style/images/vm.png'
         item.style = 'margin:5px; width: 250px; height: 278px;'
         
         const c1 = document.createElement('div')
         c1.style = 'width: 260px; height: 458px; border: 1px solid darkorange; position: relative; float: left; margin: 10px; background-color: white;'
         var item1 = document.createElement('img')
         c1.appendChild(item1)
-        item1.src = 'vm.png'
+        item1.src = './style/images/vm.png'
         item1.style = 'margin:5px; width: 250px; height: 278px;'
         
         const c2 = document.createElement('div')
         c2.style = 'width: 260px; height: 458px; border: 1px solid darkorange; position: relative; float: left; margin: 10px; background-color: white;'
         var item2 = document.createElement('img')
         c2.appendChild(item2)
-        item2.src = 'vm.png'
+        item2.src = './style/images/vm.png'
         item2.style = 'margin:5px; width: 250px; height: 278px;'
         // why not use a little jQuery:
         const body = $('body') // jQuery equivalent to: const body = document.querySelector('body')
@@ -260,7 +260,7 @@ CircleGenerator.prototype = {
         dt1.style = 'height: 149px; background: no-repeat;background-size: 100% 100%;float: left; width: 162px;margin-bottom: 8px;'
         const image1 = document.createElement('img')
         dt1.appendChild(image1)
-        image1.src = 'vm.png'
+        image1.src = './style/images/vm.png'
         const dd1 = document.createElement('dd')
         dl1.appendChild(dd1)
         dd1.style = 'float: left; width: 117px;margin-bottom: 8px; height: 169px;line-height: 169px;'
@@ -300,7 +300,7 @@ CircleGenerator.prototype = {
         dt3.style = 'margin-bottom: 8px;float: left; width: 162px; height: 169px;background: url("../images/3.jpg") no-repeat;background-size: 100% 100%;'
         const image3 = document.createElement('img')
         dt3.appendChild(image3)
-        image3.src = 'vm.png'
+        image3.src = './style/images/vm.png'
         const dd3 = document.createElement('dd')
         dl2.appendChild(dd3)
         dd3.style = 'float: left;width: 117px;height: 169px;line-height: 169px;'
@@ -340,7 +340,7 @@ CircleGenerator.prototype = {
         dt5.style = 'float: left;height: 314px;width: 190px;background: url("../images/5.jpg");background-size: 100% 100%;'
         const image5 = document.createElement('img')
         dt5.appendChild(image5)
-        image5.src = 'vm.png'
+        image5.src = './style/images/vm.png'
         const dd5 = document.createElement('dd')
         dl3.appendChild(dd5)
         dd5.style = 'float: left; width: 117px;height: 314px;line-height: 314px;'
@@ -397,7 +397,7 @@ CircleGenerator.prototype = {
         link.href = '#'
         var item = document.createElement('img')
         link.appendChild(item)
-        item.src = 'vm.png'
+        item.src = './style/images/vm.png'
         item.style = 'margin:5px; width: 250px; height: 278px;'
         var price = document.createElement('div')
         circle.appendChild(price)
@@ -430,7 +430,7 @@ CircleGenerator.prototype = {
         link1.href = '#'
         var item1 = document.createElement('img')
         link1.appendChild(item1)
-        item1.src = 'vm.png'
+        item1.src = './style/images/vm.png'
         item1.style = 'margin:5px; width: 250px; height: 278px;'
         var price1 = document.createElement('div')
         c1.appendChild(price1)
@@ -464,7 +464,7 @@ CircleGenerator.prototype = {
         link2.href = '#'
         var item2 = document.createElement('img')
         link2.appendChild(item2)
-        item2.src = 'vm.png'
+        item2.src = './style/images/vm.png'
         item2.style = 'margin:5px; width: 250px; height: 278px;'
         var price2 = document.createElement('div')
         c2.appendChild(price2)
@@ -570,7 +570,7 @@ CircleGenerator.prototype = {
         link.href = '#'
         var item = document.createElement('img')
         link.appendChild(item)
-        item.src = 'vm.png'
+        item.src = './style/images/vm.png'
         item.style = 'margin:5px; width: 250px; height: 278px;'
         var price = document.createElement('div')
         circle.appendChild(price)
@@ -708,7 +708,7 @@ CircleGenerator.prototype = {
         link.href = '#'
         var item = document.createElement('img')
         link.appendChild(item)
-        item.src = 'vm.png'
+        item.src = './style/images/vm.png'
         item.style = 'margin:5px; width: 250px; height: 278px;'
         var price = document.createElement('div')
         circle.appendChild(price)
@@ -799,7 +799,7 @@ CircleGenerator.prototype = {
         link.href = '#'
         var item = document.createElement('img')
         link.appendChild(item)
-        item.src = 'vm.png'
+        item.src = './style/images/vm.png'
         item.style = 'margin:5px; width: 250px; height: 278px;'
         var price = document.createElement('div')
         circle.appendChild(price)
@@ -899,7 +899,7 @@ CircleGenerator.prototype = {
         link.href = '#'
         var item = document.createElement('img')
         link.appendChild(item)
-        item.src = 'vm.png'
+        item.src = './style/images/vm.png'
         item.style = 'margin:5px; width: 250px; height: 278px;'
         var price = document.createElement('div')
         circle.appendChild(price)
