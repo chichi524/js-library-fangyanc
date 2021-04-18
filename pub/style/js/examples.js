@@ -46,7 +46,7 @@ cg.changeSa(0, 'sale amount  200')
 cg.changeSa(1, 'sale amount  100')
 cg.changeSa(2, 'sale amount  150')
 
-
+//cg.changeBackgroundImg(0, 'vm.png')
 //document.getElementsByTagName("img")[1].src = 'vm1.png'
 //document.getElementsByTagName("img")[2].src = 'vm4.png'
 //document.getElementsByTagName("a")[0].href = 'https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.47e66911bpKwBz&id=634027553104&sku_properties=1627207:1614671958'

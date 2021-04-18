@@ -550,9 +550,6 @@ CircleGenerator.prototype = {
         
         var imgs = document.getElementsByClassName("content")[parseInt(i/3)];
         imgs.getElementsByTagName("img")[(i - 3*parseInt(i/3))].src = image;
-       
-    
-
 
     },
 
@@ -563,44 +560,48 @@ CircleGenerator.prototype = {
 
     changeIntro: function(i, introtext) {
         var intros = document.getElementsByClassName("content")[parseInt(i/3)];
-        intros.getElementsByTagName("a")[(i - 3*parseInt(i/3))*3-2].innerHTML = introtext;
+        intros.getElementsByTagName("a")[(i - 3*parseInt(i/3))*3+1].innerHTML = introtext;
     },
 
     changeLink: function(i, linktext) {
-        var links = document.getElementsByTagName("a");
-        links[(i - 3*parseInt(i/3))*3].href = linktext;
-        var links1 = document.getElementsByTagName("a");
-        links1[((i - 3*parseInt(i/3))*3)+1].href = linktext;
-        var links2 = document.getElementsByTagName("a");
-        links2[((i - 3*parseInt(i/3))*3)+2].href = linktext;
+        var links = document.getElementsByClassName("content")[parseInt(i/3)];
+        links.getElementsByTagName("a")[(i - 3*parseInt(i/3))].href = linktext;
+        var links1 = document.getElementsByClassName("content")[parseInt(i/3)];
+        links1.getElementsByTagName("a")[((i - 3*parseInt(i/3))*3)+1].href = linktext;
+        var links2 = document.getElementsByClassName("content")[parseInt(i/3)];
+        links2.getElementsByTagName("a")[((i - 3*parseInt(i/3))*3)+2].href = linktext;
     },
 
     changeSa: function(i, satext) {
-        var sas = document.getElementsByTagName("div");
-        sas[(i - 3*parseInt(i/3))*4 + 5].innerText = satext;
+        var sas = document.getElementsByClassName("content")[parseInt(i/3)];
+        sas.getElementsByTagName("div")[(i - 3*parseInt(i/3))*4 + 2].innerText = satext;
     },
 
-    changeBackColor: function() {
-        for (let i = 0; i < this.circles.length; i++) {
-            this.circles[(i - 3*parseInt(i/3))+3].style.backgroundColor = 'black'
-        }
+
+    changeBackgroundImg: function(i, image) {
+        var bgimg = document.getElementsByTagName("main");
+        bgimg[i].style.backgroundImage = image;
     },
 
-    changeHeaderLogo: function(i, satext) {
-        var sas = document.getElementsByTagName("div");
-        sas[((i - 3*parseInt(i/3)))*4 + 5].innerText = satext;
+    changeHeaderLogo: function(i, image) {
+        var logo = document.getElementsByClassName("header");
+        logo.getElementsByTagName("img")[0].src = image;
     },
 
     changeHeaderText: function(i, text) {
-
+        var t = document.getElementsByClassName("header");
+        t.getElementsByTagName("img")[i].innerHTML = text;
     },
 
     changeBannerImage: function(i, image) {
+        var imgs = document.getElementsByClassName("banner")[parseInt(i/5)];
+        imgs.getElementsByTagName("img")[(i-5*parseInt(i/5))].src = image;
 
     },
 
     changeBannerText: function(i, text) {
-
+        var t = document.getElementsByClassName("banner")[parseInt(i/5)];
+        t.getElementsByTagName("a")[(i-5*parseInt(i/5))].innerHTML = text;
     }
 
     
