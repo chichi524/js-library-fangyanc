@@ -1,14 +1,37 @@
 # js-library-fangyanc
+https://shopshopjs.herokuapp.com/
+
+
 
 Shopshop.js
 
+    changeImg: function(i, image) 
+
+    changePrice: function(i, pricenum) 
+
+    changeIntro: function(i, introtext) 
+
+    changeLink: function(i, linktext) 
+
+    changeSa: function(i, satext) 
+
+    changeBackgroundImg: function(i, image) 
+
+    changeHeaderLogo: function(i, image) 
+
+    changeHeaderText: function(i, text) 
+
+    changeBannerImage: function(i, image) 
+
+    changeBannerText: function(i, text) 
+
+Methods
 
 cg.makeBackground()
 cg.makeHeader()
 cg.arrangeone()
 cg.makeRow()
 cg.makeRow()
-
 cg.changeImg(0, './style/images/vm.png')
 cg.changeImg(1, './style/images/vm7.png')
 cg.changeImg(2, './style/images/vm2.png')
@@ -31,22 +54,4 @@ cg.changeSa(2, 'sale amount  150')
     
     
     
-    changeImg: function(i, image) 
-
-    changePrice: function(i, pricenum) 
-
-    changeIntro: function(i, introtext) 
-
-    changeLink: function(i, linktext) 
-
-    changeSa: function(i, satext) 
-
-    changeBackgroundImg: function(i, image) 
-
-    changeHeaderLogo: function(i, image) 
-
-    changeHeaderText: function(i, text) 
-
-    changeBannerImage: function(i, image) 
-
-    changeBannerText: function(i, text) 
+    

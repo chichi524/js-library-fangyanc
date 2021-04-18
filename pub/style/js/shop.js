@@ -40,12 +40,12 @@ function $$$(selector) {
 
 // A Circle Generator Library (which also uses some jQuery functions)
 
-function CircleGenerator() {
+function generator() {
     // the constructor function should instantiate any variables that
     //  each Circle Generator instance should have a unique version of.
     //  In this case, each CG should have its own array of circles separate from
     //  other CGs.
-    this.circles = []
+    this.blocks = []
     // this..
     // this.. (any values you need for each 'instance' of this library)
 }
@@ -61,7 +61,7 @@ function CircleGenerator() {
 */
 // For funcionality and values common to all CircleGenerators,
 //  we can add to the prototype property of the constructor.
-CircleGenerator.prototype = {
+generator.prototype = {
 /*
     // Every CG will make use of the same makeCircle() and changeCircleColors function
     makeThree: function() {
