@@ -12,6 +12,7 @@
     "express": "^4.16.4"
   },
   "devDependencies": {},
+  
   "bugs": {
     "url": "https://github.com/csc309-winter-2021/js-library-fangyanc/issues"
   },
