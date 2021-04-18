@@ -33,7 +33,7 @@ g.makeBackground()
 //Make a navigation bar at the top of the webpage
 g.makeHeader()
 
-//create a category block
+//Create a category block
 g.arrangeone()
 
 //Make a row of product info blocks
@@ -54,7 +54,17 @@ cg.changeLink(0, 'https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.4
 //Insert the sales of the product
 cg.changeSa(0, 'sale amount  200')
 
+//Change the background image of the webpage
+g.changeBackgroundImg(0, './style/images/bg1.jpg')
 
+//Change the logo image of the webpage
+g.changeHeaderLogo(0, './style/images/logo3.png')
+
+//Change the text of the top navigation bar
+g.changeHeaderText(0, 'Women')
+
+//Change the name of the category
+g.changeBannerText(0, 'Bag')
     
     
     

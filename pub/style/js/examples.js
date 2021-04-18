@@ -16,7 +16,7 @@ e2.attr('myAttr', 'test')
 log(e2.attr('myAttr'))
 
 //Generator
-const cg = new Generator()
+const cg = new generator()
 cg.makeBackground()
 cg.makeHeader()
 //cg.makeRow()
