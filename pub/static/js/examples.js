@@ -16,7 +16,7 @@ e2.attr('myAttr', 'test')
 log(e2.attr('myAttr'))
 
 // Circle Generator
-const cg = new CircleGenerator()
+const cg = new Generator()
 //cg.makeBackground()
 cg.makeRow()
 cg.makeRow()

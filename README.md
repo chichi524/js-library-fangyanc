@@ -1,7 +1,7 @@
 # js-library-fangyanc
 https://shopshopjs.herokuapp.com/
 
-Documentation
+Documentation:
 https://shopshopjsdocumentation.herokuapp.com/
 
 Shopshop.js

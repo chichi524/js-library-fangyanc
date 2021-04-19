@@ -39,8 +39,9 @@ function $$$(selector) {
 // adding to its prototype.
 
 // A Circle Generator Library (which also uses some jQuery functions)
+(function(global, document, $) { 
 
-function CircleGenerator() {
+function Generator() {
     // the constructor function should instantiate any variables that
     //  each Circle Generator instance should have a unique version of.
     //  In this case, each CG should have its own array of circles separate from
@@ -60,8 +61,9 @@ function CircleGenerator() {
 }
 */
 // For funcionality and values common to all CircleGenerators,
-//  we can add to the prototype property of the constructor.
-CircleGenerator.prototype = {
+//  we can add to the prototype property of the constructor
+
+Generator.prototype = {
 /*
     // Every CG will make use of the same makeCircle() and changeCircleColors function
     makeThree: function() {
@@ -232,10 +234,10 @@ CircleGenerator.prototype = {
         body.append(main)
         
         //this.circles.push(title)
-        this.circles.push(test)
-        this.circles.push(circle) // add to the circles list
-        this.circles.push(c1)
-        this.circles.push(c2)
+        //this.circles.push(test)
+        //this.circles.push(circle) // add to the circles list
+        //this.circles.push(c1)
+        //this.circles.push(c2)
     },
 
 
@@ -335,9 +337,12 @@ CircleGenerator.prototype = {
         
         //this.circles.push(title)
         //this.circles.push(test)
-        this.circles.push(circle) // add to the circles list
+        //this.circles.push(circle) // add to the circles list
     }
+}
+    global.Generator = global.Generator || Generator
 
+})(window, window.document, $); 
 
 /*    makeSingle: function() {
         //const title = document.createElement('div')
@@ -394,7 +399,7 @@ CircleGenerator.prototype = {
 //      }
 //  }
 
-}
+
 
 // Above is the code for the library itself.
 // We will use our libraries in a separate script file, examples.js
