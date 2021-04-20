@@ -18,14 +18,14 @@ log(e2.attr('myAttr'))
 //Generator
 const cg = new Generator()
 
-function examples(){
+//function examples(){
 
 
 cg.makeBackground()
-//cg.makeHeader()
+cg.makeHeader()
 //cg.makeRow()
 //cg.makeRow()
-//cg.arrangeone()
+cg.arrangeone()
 cg.makeRow()
 cg.makeRow()
 
@@ -49,9 +49,9 @@ cg.changeLink(2, 'https://detail.tmall.com/item.htm?spm=a230r.1.14.72.72a729def7
 cg.changeSa(0, 'sale amount  200')
 cg.changeSa(1, 'sale amount  100')
 cg.changeSa(2, 'sale amount  150')
-}
+//}
 
-examples();
+//examples();
 //cg.changeBackgroundImg(0, 'vm.png')
 //document.getElementsByTagName("img")[1].src = 'vm1.png'
 //document.getElementsByTagName("img")[2].src = 'vm4.png'

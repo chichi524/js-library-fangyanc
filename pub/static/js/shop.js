@@ -39,7 +39,7 @@ function $$$(selector) {
 // adding to its prototype.
 
 // A Circle Generator Library (which also uses some jQuery functions)
-(function(global, document, $) { 
+//(function(global, document, $) { 
 function Generator() {
     // the constructor function should instantiate any variables that
     //  each Circle Generator instance should have a unique version of.
@@ -645,9 +645,9 @@ Generator.prototype = {
 }
 
 
-global.Generator = global.Generator || Generator
+//global.Generator = global.Generator || Generator
 
-})(window, window.document, $); // pass the global window object and jquery to the anonymous function. They will now be locally scoped inside of the function.
+//})(window, window.document, $); // pass the global window object and jquery to the anonymous function. They will now be locally scoped inside of the function.
 
     
 
