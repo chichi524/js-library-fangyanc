@@ -21,7 +21,7 @@ cg.makeBackground()
 cg.makeHeader()
 //cg.makeRow()
 //cg.makeRow()
-cg.arrangeone()
+//cg.arrangeone()
 cg.makeRow()
 cg.makeRow()
 
